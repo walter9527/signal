@@ -26,6 +26,8 @@
 
 #include <sys/wait.h>
 
+#include <signal.h>
+
 extern void is_err(ssize_t ret, char *opt); 
 extern void is_null_err(void *ret, char *opt); 
 
