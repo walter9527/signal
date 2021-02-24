@@ -1,20 +1,15 @@
 #include <stdio.h>
-#include <sys/types.h>
-#include <unistd.h>
 
 
 int main(int argc, char *argv[])
 {
-//    pid_t ret = fork();
-//
-//    if (ret > 0) {
-//
-//    } else if (ret == 0) {
-//
-//    }
-//
-//    while (1);
-    int *p = NULL;
-    *p = 100;
+    int a = 10, b = 20, c = 30;
+
+    if (c > b > a) {
+        printf("TRUE");
+    } else {
+        printf("FALSE");
+    }
+    getchar();
     return 0;
 }
